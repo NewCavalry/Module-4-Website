@@ -6,10 +6,9 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="language" content="english">
-		<meta name="description"="DAE Module3 Website Dsign with links and CSS"/>
+		<title>Module 4 Website Design</title>
 		<meta name="author" content="Desiree Girotto">
 		<meta name="rating" content="safe for kids">
-        <title>Module3 Website Design</title>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Viaoda+Libre&display=swap" rel="stylesheet">
@@ -20,7 +19,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap" rel="stylesheet">
-        <link href="style.css" rel="stylesheet" type="text/css" />
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
     </head>
 
     
@@ -36,33 +35,48 @@
 				</ul>   
 			</nav>
         </div>
-			<!-- 	<h4>Get in touch with me if need any design help.</h4>-->
+		
 		<section>
-		<div class="contact">
-			<h4>Contact me if you need any design help</h4>
-	   		<form action="thankyou.html"method="post">
-	            <label>
-	                First Name
-	                <input type="text" required placeholder="First Name Here">
-	            </label> <br>
-	       
-	            <label>
-	                Last Name
-	                <input type="text" required placeholder="Last Name Here">
-	            </label> <br>
-				
-	       		<label>
-	                Email
-	                <input type="email" required placeholder="Enter Email">
-	            </label> <br>
-				<input type="submit" value="Submit">
-				</section>
+			<div class="contact">
+				<h4>Contact me if you need any design help</h4>
+				<form action="thankyou.html"method="post">
+					<label>
+						First Name
+						<input type="text" required placeholder="First Name Here">
+					</label> <br>
+			
+					<label>
+						Last Name
+						<input type="text" required placeholder="Last Name Here">
+					</label> <br>
+					
+					<label>
+						Email
+						<input type="email" required placeholder="Enter Email">
+					</label> <br>
+					<label>
+						Phone
+						<input type="tel" required placeholder="Enter Phone"><br>
+
+					<label for="dropdown">What type of design work are you looking for?</label>
+						<select id="dropdown">
+							<option>Print</option>
+							<option>Digital</option>
+							<option>Print & Digital</option>
+							<option>Other</option>
+						</select>
+					</label> <br>
+						<label for="comments">Any other information you would like me to know?</label><br>
+						<textarea id="comments" rows="10" cols="50"></textarea><br>
+						<input type="submit" value="Thank You!">
 	            <!-- 	<label>
 	                User Name
 	                <input type="text" required placeholder="User Name Here">
 	            </label> <br>/a>-->
-	   		</form>
+	   			</form>
+		<section>
 		</div>
+
 		<!-- From W3 for reference 
 		<form action="/action_page.php">
  		 	  <input type="radio" id="html" name="fav_language" value="HTML">
